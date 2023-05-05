@@ -5,8 +5,8 @@ from scipy import signal
 
 
 # Constants
-ACC_FILE_PATH = './Accelerometer.csv'
-GYRO_FILE_PATH = './Gyroscope.csv'
+ACC_FILE_PATH = './data/Accelerometer.csv'
+GYRO_FILE_PATH = './data/Gyroscope.csv'
 SAMPLING_FREQ = 100  # Hz
 DT = 1 / SAMPLING_FREQ 
 STEP_LENGTH = 30  # cm

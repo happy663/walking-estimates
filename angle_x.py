@@ -10,7 +10,7 @@ DT = 1 / SAMPLING_FREQ
 
 if __name__ == '__main__':
 
-    gyro_data = pd.read_csv('./Gyroscope.csv')
+    gyro_data = pd.read_csv('./data/Gyroscope.csv')
     angle_data = np.cumsum(gyro_data * DT) 
 
     # Plot angle data

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
 
-    df = pd.read_csv('./Accelerometer.csv')
+    df = pd.read_csv('./data/Accelerometer.csv')
 
     # normを計算
     df['norm'] = (df['x']**2 + df['y']**2 + df['z']**2)**0.5
